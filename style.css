@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+.logo-container, .nav-links, .cart{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+
+}
+
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+
+.cart{
+    justify-content: flex-end;
+    flex: 1;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+/*MAIN SECTION*/
+
+
+.apresentação{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+
+}
+
+.cover{
+    flex: 1;
+}
+
+.intro-text h1{ 
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.intro-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: #858772;
+}
+.cta-select{
+    border: none;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px
+}
+
+.cta-add{
+    border: none;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 30px 0px 0px 30px;
+    font-size: 16px;
+}
+
+
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+
+.into{
+    flex: 1;
+}
+.cover img{
+    height: 60vh;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+
+.big-circle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    height: 80%;
+}
+
+.mid-circle{
+    position: absolute;
+    bottom: 0px;
+    left: -90px;
+    z-index: -1;
+    opacity: 0.9;
+    height: 50%;
+}
+
+.laptop-select{
+    position: absolute;
+    right:%;
+    display: flex
+    justify-content: space-around;
+    width: 15%;
+    
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	.apresentação {
+		flex-direction: column;
+	}
+	.into {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
+	.cta {
+		padding: 10px 0px 0px 0px;
+	}
+	.cover {
+		height: 80%;
+    }
+}
