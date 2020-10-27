@@ -1,5 +1,4 @@
 # laptop-threedots-website
-Landing-page para uma loja divulgar seu produto com design clean e agradável. 
 
 ### **OBJETIVO**
 Esta pagina foi criada com intuito de apresentar um produto de forma rapida e pratica, já oferecendo
