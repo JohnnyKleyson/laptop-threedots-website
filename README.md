@@ -1,4 +1,4 @@
-# laptop-threedots-website
+<h1 align="center">Threedots Store</h1>
 
 ### **OBJETIVO**
 Esta pagina foi criada com intuito de apresentar um produto de forma rapida e pratica, já oferecendo
@@ -10,6 +10,8 @@ para o cliente a oportunidade de comprar.
 ### **ACESSE**
 https://johnnykleyson.github.io/laptop-threedots-website/.
 ### **FERRAMENTAS**
--HTML
+- HTML
 
--CSS
+- CSS
+
+- GSAP
